@@ -1,1 +1,35 @@
 https://symonstorozhenko.wixsite.com/website-1
+
+playwright selectors https://playwright.dev/python/docs/locators
+
+https://playwright.dev/python/docs/locators
+
+to get selectors go to console.
+then playwright.$("locatior")
+
+playwright recommends to use locator strategy
+
+page,locator.action
+example:
+
+page.locator("text=login").click()
+
+this is to universalize the playwright for all language
+
+
+nearby selectors
+
+chaining selectors
+    we can use 2 or more selectors to locate element
+playwright.$("loginheadline_SM_ROOT_COMP28" class="jysNN">Log In</h1>)
+
+
+assertions with playwright
+
+in playwright
+expect(page.locator("").to_be_visible)
+
+Assertions Playwright docs
+Assertions documentation:
+
+https://playwright.dev/python/docs/test-assertions
