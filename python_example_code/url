@@ -6,6 +6,8 @@ https://playwright.dev/python/docs/locators
 
 to get selectors go to console.
 then playwright.$("locatior")
+to get all matching selectors
+playwright.$$
 
 playwright recommends to use locator strategy
 
@@ -33,3 +35,8 @@ Assertions Playwright docs
 Assertions documentation:
 
 https://playwright.dev/python/docs/test-assertions
+
+Playwright is a new framework and the POM API is constantly changing. Please check the documentation frequently:
+
+https://playwright.dev/python/docs/pom
+
